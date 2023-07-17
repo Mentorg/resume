@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&family=Open+Sans:wght@400;500&display=swap');
+
+* {
+  font-family: 'EB Garamond', serif;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+p { margin: 0; }
+
+main {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  margin-inline: auto;
+  width: 90%;
+}
+
+.forms {
+  margin: 2rem;
+  width: 90%;
+}
+
+form { margin-top: 2rem; }
+
+form label, input { 
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
+}
+
+.forms form button {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  width: fit-content;
+}
+
+.preview { 
+  background-color: #fff;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.personal-info { text-align: center; }
+
+.personal-info h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+textarea {
+  resize: none;
+}
